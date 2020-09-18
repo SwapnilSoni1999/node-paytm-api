@@ -29,7 +29,7 @@ const accessToken = await paytm.verifyOtp('1234')
 ```
 - <b>Note</b>: AccessToken will be stored in class variable. Its only to use it later on.
 
-- <h3>Once you login! You can use the account methods.
+- <h3>Once you login! You can use the account methods.</h3>
 
 ### With Access Token
 You can use accessToken to initialize class instance too.
