@@ -39,8 +39,18 @@ Example:
 const paytm = new Paytm({ accessToken: '<your accessToken here>' })
 ```
 
-## Using Methods.
+## Using Methods
 |    Method      |      Usage     |  Arguments | Return value |
 | -------------- | --------------| ------------ | ------------ |
 | getAccessToken | get accessToken when <br> successfully authenticated | None | `accessToken(String)` |
 | getWalletHistory | retrieve wallet history of <br> user.  | (`offset`: optional, `limit`: optional) <br> `offset` - value to skip for front <br> `limit` - Retreival results for max at a time | `object -> array of transaction history` <br> (based on offset and limit)
+
+
+## Code Example
+- <h4>Checkout code example <a href="https://github.com/SwapnilSoni1999/node-paytm-api/tree/master/examples">here</a></h4>
+
+# Credits
+- HttpCanary
+- Magisk
+- Fiddler
+- and ofc me :flushed:
