@@ -19,7 +19,7 @@ You can simply require/import and use the Wrapper.
 Example.
 ```js
 const Paytm = require('node-paytm-api')
-const paytm = new Paytm({ number: '+919876543210', 'MyPassword' }) 
+const paytm = new Paytm({ number: '+919876543210', password: 'MyPassword' }) 
 ```
 - after creating class instance you will be recieving OTP on your provided number. 
 - Then you can verify OTP using `verifyOtp`. The function will return Promise and you can have accessToken when resolved.
