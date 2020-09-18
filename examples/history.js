@@ -1,4 +1,4 @@
-const Paytm = require('./paytm')
+const Paytm = require('./../paytm')
 const readline = require('readline')
 
 // Add your number and Password
@@ -11,6 +11,10 @@ paytm.login().then(() => {
         // only change from auth.js file
         const history = await paytm.getWalletHistory()
         console.log("Wallet history:", history)
+
+        // get Next list
+        const nextHistory = await paytm.getWalletHistory(50, 100) // Returns 50-100 result
+        console.log("Next history", nextHistory)
         ques.close()
     })
 })

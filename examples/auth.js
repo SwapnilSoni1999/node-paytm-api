@@ -1,4 +1,4 @@
-const Paytm = require('./paytm')
+const Paytm = require('./../paytm')
 const readline = require('readline')
 
 // Add your number and Password
